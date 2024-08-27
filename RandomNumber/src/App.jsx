@@ -8,7 +8,7 @@ function App() {
   const [randomNum,setRandomNum] = useState(5);
   const giveRandomNumber = ()=>{
     setRandomNum(Math.floor(Math.random()*(maxVal-minVal +1)+minVal))
-    set
+   
 
   }
 
