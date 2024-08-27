@@ -1,0 +1,67 @@
+.container{
+  width: 500px;
+  margin: 30vh auto;
+  background-color: burlywood;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+
+  .random-number{
+    background-color: bisque;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+  }
+
+  .max-min{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+    p{
+      text-align: left;
+      line-height: 0;
+    }
+
+
+    input{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 10px;
+      border: none;
+      background-color: beige;
+      width: 140px;
+      height: 30px;
+    }
+
+    
+  }
+
+  .button-div{
+    button{
+      width: 250px;
+      height: 35px;
+      background-color: rgb(177, 147, 0);
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      border: none;
+      transition: all 0.4s;
+      cursor: pointer;
+
+      &:hover{
+        background-color: black;
+      }
+    }
+  }
+}
